@@ -1,12 +1,15 @@
 # Sistema de Keys para Jogos
 Projeto Final da UC3 Senac: Desenvolvendo terminal de vendas em Python
+
 Contexto do Desafio
+
 Você foi contratado para desenvolver o protótipo funcional do sistema de vendas via terminal para uma plataforma de e-commerce. O objetivo é criar um script em Python que simule a experiência de um cliente: visualizar produtos, gerenciar um carrinho de compras, aplicar cupons de desconto e consolidar o estoque físico em tempo real.Requisitos Técnicos do Sistema
 
 1. Estrutura de Dados (Banco de Dados Simulado)
 Estoque: Deve ser implementado utilizando um dicionário, onde a chave é o ID numérico do produto e o valor é outro dicionário contendo as propriedades do produto: nome (string), preco (float) e quantidade (inteiro).
 Carrinho de Compras: Deve ser uma lista dinâmica que armazenará temporariamente os itens selecionados pelo usuário (cada item no carrinho também será um dicionário contendo ID, nome, preço unitário e a quantidade escolhida).
-2. Menu Interativo e Fluxo de Navegação
+
+Menu Interativo e Fluxo de Navegação
 O sistema deve rodar em um loop contínuo (while), exibindo um menu textual com as seguintes opções:
 
 [1] Visualizar Estoque
